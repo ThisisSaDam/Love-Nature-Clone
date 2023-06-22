@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap');
+
+body {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background: url(/imgs/header-hero-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 420px;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 0 0 2px 0;
+  margin: 0;
+}
+
+a { 
+  text-decoration-line: none;
+  color: white;
+  padding: 0 16px;
+}
+
+.phone-number {
+  margin: auto;
+  padding-left: 20px;
+}
+
+.call-btn {
+  border: 1px solid white;
+  border-radius: 4px;
+  background: none;
+  color: white;
+  padding: 12.5px 25px;
+  font-size: 15px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.overlay {
+  background-color: black;
+  opacity: 0.1;
+  width: 100%;
+  height: 420px;
+  position: absolute;
+}
+
+.header-container {
+  position: absolute;
+  width: 100%;
+}
+
+.navigation {
+  width: 100%;
+  padding: 13px 0;
+}
+
+.navigation-container {
+  display: flex;
+  justify-content: center;
+  padding: 13px 13px;
+  width: auto;
+}
+
+.navigation-sub-container {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  gap: 315px; 
+  width: fit-content;
+}
+
+.navigation-logo {
+  width: 370.328px;
+}
+
+.introduce-container {
+  display: flex;
+  justify-content: center;
+  padding: 43px 0;
+}
+
+.introduce-title {
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 76px;
+  font-weight: 400;
+  letter-spacing: -3px;
+}
+
+.customer-sp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.customer-sp-p {
+  text-align: center;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.p-content {
+  margin: 0;
+  font-family: 'Forum', display;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -2px;
+  color: rgb(83, 105, 66);
+  font-weight: 400;
+}
+
+.customer-sp-img {
+  text-align: center;
+  height: 600px;
+}
+
+.customer-sp-desc {
+  display: flex;
+  text-align: center;
+  gap: 50px;
+  padding: 50px 0;
+}
+
+.customer-sp-desc-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: rgb(83, 105, 66);
+  font-family: 'DM Sans', sans-serif;
+  line-height: 31px;
+  text-align: center;
+  gap: 20px;
+}
+
+.item-title {
+  margin: 0;
+  font-size: 21px;
+  font-weight: 400;
+
+}
+
+.item-content {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.quotes {
+  background-color: #F6F8F5;
+  padding: 50px;
+}
+
+.quotes-container {
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+}
+
+.quotes-content {
+  color: rgb(83, 105, 66);
+  font-size: 35px;
+  font-family: 'Forum', display;
+  letter-spacing: -2px;
+  align-items: center;
+}
+
+.avatar-home {
+  width: 50px;
+}
+
+.avatar-name {
+  font-size: 14px;
+  color: rgba(82, 104, 64, 0.5);
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-container {
+  background-color: rgb(255, 255, 255);
+}
+
+.footer-sub-container {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+
+.nav-footer-item {
+  color: rgb(83, 105, 66);
+}
+
+.logo-green {
+  width: 60px;
+}
